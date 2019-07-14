@@ -1,0 +1,22 @@
+Django Administration superuser:
+petazetas/sergio12345
+
+git config --global user.name petazetas007
+git config --global user.email petazetas007@gmail.com
+
+
+git status
+git add --all .
+git commit -m "Mi aplicación, primer commit"
+
+git remote add origin https://github.com/petazetas007/Django3.git
+git push -u origin master
+
+
+en pythonanywhere:
+pip3.6 install --user pythonanywhere
+pa_autoconfigure_django.py https://github.com/petazetas007/Django3.git
+(ola.pythonanywhere.com) python manage.py createsuperuser               (petazetas/sergio12345)
+
+
+ls // para ver el codigo subido
